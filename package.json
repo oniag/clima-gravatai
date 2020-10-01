@@ -1,0 +1,20 @@
+{
+  "name": "clima-gravatai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oniag/clima-gravatai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oniag/clima-gravatai/issues"
+  },
+  "homepage": "https://github.com/oniag/clima-gravatai#readme"
+}
