@@ -2,8 +2,9 @@
   "name": "clima-gravatai",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/oniag/clima-gravatai/issues"
   },
-  "homepage": "https://github.com/oniag/clima-gravatai#readme"
+  "homepage": "https://github.com/oniag/clima-gravatai#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.17.1",
+    "node-cron": "^2.0.3",
+    "twit": "^2.2.11"
+  }
 }
