@@ -9,5 +9,9 @@ const task = cron.schedule('* * * * *', () => {
   console.log('Tarefa rodando de 1 em 1 minuto')
 }, { scheduled: true, timezone: 'America/Sao_Paulo' })
 
+app.get('/', (req, res) => {
+  res.send('Tudo ok :)')
+})
+
 task.start()
 app.listen(port)
